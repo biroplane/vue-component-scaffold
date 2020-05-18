@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vue-component-scaffold.helloWorld"
+		"onCommand:vue-component-scaffold.createComponentFolder"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "vue-component-scaffold.helloWorld",
-				"title": "Hello World"
+				"command": "vue-component-scaffold.createComponentFolder",
+				"title": "Create Vue Component with Folder"
 			}
 		]
 	},
